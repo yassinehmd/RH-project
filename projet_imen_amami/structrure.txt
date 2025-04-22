@@ -1,0 +1,28 @@
+GestionCongesISAE/
+├── src/
+│   ├── models/
+│   │   ├── Utilisateur.java
+│   │   ├── Enseignant.java
+│   │   ├── ResponsableRH.java
+│   │   ├── Administrateur.java
+│   │   ├── DemandeConge.java
+│   │   ├── RepriseTravail.java
+│   │   └── ParametresConge.java
+│   ├── dao/
+│   │   ├── ConnexionDB.java
+│   │   ├── UtilisateurDAO.java
+│   │   ├── DemandeCongeDAO.java
+│   │   └── ParametresCongeDAO.java
+│   ├── services/
+│   │   ├── AuthentificationService.java
+│   │   ├── GestionCongeService.java
+│   │   └── RHService.java
+│   └── views/
+│       ├── LoginFrame.java
+│       ├── EnseignantDashboard.java
+│       ├── RHDashboard.java
+│       └── AdminDashboard.java
+├── lib/
+│   └── mysql-connector-java-8.0.xx.jar
+└── database/
+    └── script.sql
